@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: whitesmoke;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+#nav-page {
+  height: 30vh;
+}
+
+#hero-page {
+  background: linear-gradient(to top, #6d83a0, #78899d);
+  /* background-color: #78899d; */
+  /* width: 99vw; */
+  /* height: 808px; */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+#mail {
+  text-align: end;
+  padding: 10px;
+}
+
+#hero-container {
+  gap: 30px;
+  margin: auto;
+  display: flex;
+}
+
+#hero-text {
+  border: 1px black solid;
+  padding: 5px;
+}
+
+#hero-image {
+  border: 1px black solid;
+  padding: 5px;
+}
+
+#social-links {
+  gap: 30px;
+  border: 1px solid black;
+  padding: 10px;
+  display: flex;
+}
+
+#linkedin-img {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+#github-img {
+  border: 1px solid black;
+  padding: 5px;
+}
+#about-page {
+  height: 99vh;
+}
+
+#experience-page {
+  height: 30vh;
+}
+
+#projects {
+  height: 50vh;
+}
+
+#contact {
+  height: 30vh;
+}
+
+.dark-sec {
+  background-color: #415a77;
+}
+
+.light-sec {
+  background-color: #778da9;
+}
