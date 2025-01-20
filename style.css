@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: "Sansita", serif;
+  font-weight: 400;
+  font-style: normal;
   color: whitesmoke;
 }
 
@@ -10,65 +12,164 @@ body {
   background-color: whitesmoke;
 }
 
-#nav-page {
-  height: 30vh;
-}
-
 #hero-page {
   background: linear-gradient(to top, #6d83a0, #78899d);
-  /* background-color: #78899d; */
-  /* width: 99vw; */
-  /* height: 808px; */
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* align-items: center; */
 }
 
 #mail {
-  text-align: end;
+  margin-left: auto;
+  height: 50px;
+  width: 50px;
   padding: 10px;
 }
 
 #hero-container {
+  font-size: 2rem;
   gap: 30px;
   margin: auto;
   display: flex;
 }
 
 #hero-text {
-  border: 1px black solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  /* border: 1px black solid; */
   padding: 5px;
 }
 
+#underline {
+  white-space: nowrap;
+  text-decoration: underline;
+}
+
 #hero-image {
-  border: 1px black solid;
+  height: 250px;
+  width: 250px;
+  /* border: 1px black solid; */
   padding: 5px;
 }
 
 #social-links {
-  gap: 30px;
-  border: 1px solid black;
-  padding: 10px;
+  background-color: #a5b4c4;
+  width: 150px;
+  border-radius: 0px 15px 15px 0px;
+  border: 2px solid black;
+  padding: 5px;
   display: flex;
 }
 
+.social-icon {
+  margin: auto;
+  width: 40px;
+}
+
 #linkedin-img {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding: 5px;
 }
 
 #github-img {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding: 5px;
 }
+
+#nav-page {
+  font-size: 3rem;
+  text-align: center;
+  height: 45vh;
+}
+
+#nav-main {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  padding: 30px;
+}
+
+#nav-box {
+  text-align: center;
+}
+
+#nav-pic {
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+}
+
+#nav-text {
+  border: 1px black solid;
+  padding: 10px;
+}
+
 #about-page {
   height: 99vh;
 }
 
+#aboutpage-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px;
+  font-size: 1.4rem;
+}
+
+#abouthead-text {
+  font-size: 2rem;
+  text-align: center;
+  padding: 30px;
+  text-decoration: underline;
+}
+
+#about-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 500px;
+  max-width: 600px;
+}
+
+#about-img {
+  margin-top: 75px;
+}
+
+#experience-head {
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
 #experience-page {
+  gap: 30px;
+  display: flex;
+  justify-content: center;
   height: 30vh;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+#experience-container {
+  display: flex;
+  width: 700px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#experience-container > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#experience-img {
+  width: 100px;
+  height: 100px;
 }
 
 #projects {

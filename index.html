@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&family=Unkempt:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
@@ -9,19 +15,99 @@
   </head>
   <body>
     <section id="hero-page">
-      <div id="mail">mail</div>
+      <img id="mail" src="images/mail.svg" alt="" />
       <div id="hero-container">
-        <div id="hero-text">hero text</div>
-        <div id="hero-image">hero image</div>
+        <div id="hero-text">
+          Hallo,<br /><span id="underline">Louis her!</span>
+        </div>
+        <img id="hero-image" src="images/hero-page-transp-2.png" alt="" />
       </div>
       <div id="social-links">
-        <div id="linkedin-img">hei</div>
-        <div id="github-img">hei</div>
+        <img
+          class="social-icon"
+          id="linkedin-img"
+          src="images/linkedin.svg"
+          alt=""
+        />
+        <img
+          class="social-icon"
+          id="github-img"
+          src="images/github.svg"
+          alt=""
+        />
       </div>
     </section>
-    <section class="dark-sec" id="nav-page">nav</section>
-    <section class="light-sec" id="about-page">about</section>
-    <section class="dark-sec" id="experience-page"></section>
+    <section class="dark-sec" id="nav-page">
+      <div id="nav-main">
+        <div id="nav-box">
+          <img id="nav-pic" src="images/aboutme-page.png" alt="" />
+          <div id="nav-text">Om meg</div>
+        </div>
+        <div id="nav-box">
+          <img id="nav-pic" src="images/Uten navn.png" alt="" />
+          <div id="nav-text">Egenskaper</div>
+        </div>
+        <div id="nav-box">
+          <img id="nav-pic" src="images/category-page2.png" alt="" />
+          <div id="nav-text">Prosjekter</div>
+        </div>
+      </div>
+    </section>
+    <section class="light-sec" id="about-page">
+      <div id="aboutpage-main">
+        <div id="aboutpage-container">
+          <div id="abouthead-text">Om meg</div>
+          <div id="about-text">
+            <p>
+              Hei, jeg heter Louis, og jeg er frontend-utvikler under
+              opplæring.Gjennom Kodehode-kurset har jeg spesialisert meg i
+              React, Vanilla JavaScript, HTML og CSS, og jeg ser fram til å
+              anvende mine ferdigheter i et profesjonelt miljø.
+            </p>
+            <p>
+              Jeg trives godt både i selvstendig arbeid og i team, og jeg bidrar
+              til en positiv og produktiv atmosfære både faglig og sosialt. Å
+              bygge sterke relasjoner og utvide min kunnskap innen
+              frontend-utvikling er noe jeg ser fram til.
+            </p>
+            <p>
+              Utenfor arbeidsplassen er jeg en engasjert gamer med en
+              forkjærlighet for survival-spill som ARK. Min lange erfaring med
+              gaming har lært meg viktige ferdigheter som problemløsning,
+              kritisk tenkning og strategisk planlegging. Disse ferdighetene,
+              sammen med mine sosiale egenskaper, gjør meg godt egnet til å
+              bidra i ethvert arbeidsmiljø.
+            </p>
+          </div>
+        </div>
+        <img id="about-img" src="images/aboutme-page.png" alt="" />
+      </div>
+    </section>
+    <section class="dark-sec" id="experience-page">
+      <p id="experience-head">Egenskaper</p>
+      <div id="experience-container">
+        <div>
+          <img id="experience-img" src="images/javas.svg" alt="" />
+          <div>JavaScript</div>
+        </div>
+        <div>
+          <img id="experience-img" src="images/html.svg" alt="" />
+          <div>HTML</div>
+        </div>
+        <div>
+          <img id="experience-img" src="images/css.svg" alt="" />
+          <div>CSS</div>
+        </div>
+        <div>
+          <img id="experience-img" src="images/react.svg" alt="" />
+          <div>React</div>
+        </div>
+        <div>
+          <img id="experience-img" src="images/figma.svg" alt="" />
+          <div>FIGMA</div>
+        </div>
+      </div>
+    </section>
     <section class="light-sec" id="projects">projects</section>
     <section class="dark-sec" id="contact"></section>
   </body>
