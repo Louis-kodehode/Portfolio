@@ -156,7 +156,7 @@ body {
 
 #experience-container {
   display: flex;
-  width: 700px;
+  min-width: 700px;
   justify-content: space-between;
   align-items: center;
 }
@@ -165,9 +165,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 45%;
 }
 
-#experience-img {
+.experience-img {
   width: 100px;
   height: 100px;
 }
@@ -226,4 +227,25 @@ body {
 
 .light-sec {
   background-color: #778da9;
+}
+
+@media (max-width: 768px) {
+  #nav-page {
+    height: 50vh;
+  }
+  #project-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  #projects {
+    height: 150vh;
+  }
+  #experience-container {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  #experience-page {
+    height: 70vh;
+  }
 }
