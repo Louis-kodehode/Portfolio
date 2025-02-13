@@ -109,7 +109,7 @@ body {
 }
 
 #about-page {
-  height: 99vh;
+  /* height: 99vh; */
 }
 
 #aboutpage-main {
@@ -118,6 +118,7 @@ body {
   justify-content: space-around;
   padding: 50px;
   font-size: 1.4rem;
+  gap: 10vw;
 }
 
 #abouthead-text {
@@ -131,12 +132,14 @@ body {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  width: 500px;
-  max-width: 600px;
+  /* width: 500px; */
+  /* max-width: 600px; */
 }
 
 #about-img {
   margin-top: 75px;
+  max-width: 40%;
+  object-fit: contain;
 }
 
 #experience-head {
@@ -148,7 +151,7 @@ body {
   gap: 30px;
   display: flex;
   justify-content: center;
-  height: 30vh;
+  /* height: 30vh; */
   flex-direction: column;
   align-items: center;
   padding: 30px;
@@ -156,16 +159,20 @@ body {
 
 #experience-container {
   display: flex;
-  min-width: 700px;
-  justify-content: space-between;
+  /* min-width: 700px; */
+  /* justify-content: space-between; */
   align-items: center;
+  gap: 5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
 }
 
 #experience-container > div {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 45%;
+  align-items: center; */
+  /* width: 45%; */
 }
 
 .experience-img {
@@ -174,13 +181,14 @@ body {
 }
 
 #projects {
-  height: 50vh;
+  /* height: 50vh; */
 }
 
 #project-container {
   display: flex;
   justify-content: center;
   gap: 40px;
+  flex-wrap: wrap;
 }
 
 #project-1 {
@@ -229,7 +237,7 @@ body {
   background-color: #778da9;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   #nav-page {
     height: 50vh;
   }
@@ -248,4 +256,4 @@ body {
   #experience-page {
     height: 70vh;
   }
-}
+} */
