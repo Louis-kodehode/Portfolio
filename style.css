@@ -82,7 +82,7 @@ body {
 #nav-page {
   font-size: 3rem;
   text-align: center;
-  height: 45vh;
+  /* height: 45vh; */
 }
 
 #nav-main {
@@ -90,6 +90,7 @@ body {
   justify-content: space-around;
   flex-direction: row;
   padding: 30px;
+  flex-wrap: wrap;
 }
 
 #nav-box {
@@ -181,6 +182,7 @@ body {
 }
 
 #projects {
+  text-align: center;
   /* height: 50vh; */
 }
 
@@ -189,6 +191,7 @@ body {
   justify-content: center;
   gap: 40px;
   flex-wrap: wrap;
+  padding: 2rem;
 }
 
 #project-1 {
