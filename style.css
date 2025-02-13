@@ -49,10 +49,11 @@ body {
 }
 
 #hero-image {
-  height: 250px;
-  width: 250px;
+  /* height: 250px;
+  width: 250px; */
   /* border: 1px black solid; */
   padding: 5px;
+  max-width: 40%;
 }
 
 #social-links {
@@ -119,7 +120,7 @@ body {
   justify-content: space-around;
   padding: 50px;
   font-size: 1.4rem;
-  gap: 10vw;
+  gap: 5vw;
 }
 
 #abouthead-text {
@@ -138,7 +139,6 @@ body {
 }
 
 #about-img {
-  margin-top: 75px;
   max-width: 40%;
   object-fit: contain;
 }
@@ -191,11 +191,13 @@ body {
   justify-content: center;
   gap: 40px;
   flex-wrap: wrap;
-  padding: 2rem;
+  padding: 4rem;
 }
 
 #project-1 {
-  height: 250px;
+  /* height: 250px; */
+  /* max-width: 80%; */
+  width: 300px;
 }
 
 #project-svg-container {
@@ -204,13 +206,13 @@ body {
 }
 
 #project-github-svg {
-  width: 50px;
-  height: 50px;
+  width: 25px;
+  height: 25px;
 }
 
 #project-pages-svg {
-  width: 50px;
-  height: 50px;
+  /* width: 50px;
+  height: 50px; */
 }
 
 #svg-text {
@@ -238,6 +240,14 @@ body {
 
 .light-sec {
   background-color: #778da9;
+}
+
+@media (max-width: 768px) {
+  #aboutpage-main {
+    flex-direction: column-reverse;
+  }
+  #abouthead-text {
+  }
 }
 
 /* @media (max-width: 768px) {
