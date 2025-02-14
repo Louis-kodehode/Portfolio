@@ -85,6 +85,8 @@ body {
   font-size: 3rem;
   text-align: center;
   /* height: 45vh; */
+  /* display: flex;
+  justify-content: center; */
 }
 
 #nav-main {
@@ -93,6 +95,7 @@ body {
   flex-direction: row;
   padding: 30px;
   flex-wrap: wrap;
+  /* gap: 200px; */
 }
 
 #nav-box {
@@ -136,7 +139,7 @@ body {
   flex-direction: column;
   gap: 30px;
   /* width: 500px; */
-  /* max-width: 600px; */
+  max-width: 600px;
 }
 
 #about-img {
@@ -250,6 +253,11 @@ body {
     flex-direction: column-reverse;
   }
   #abouthead-text {
+  }
+  #hero-container {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
 }
 
